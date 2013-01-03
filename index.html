@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="world.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+	</head>
+	<body>
+	
+		<img id="worldImage" alt="" src="world.png" width="1620" height="900" />
+		
+		<div id="horLine"></div>
+		<div id="verLine"></div>
+		
+		<button id="plussButton" type="button" onclick="OnPlussButtonClick();">+</button>
+		<button id="minusButton" type="button" onclick="OnMinusButtonClick();">-</button>
+		
+		<table id="worldPopOutputTable">
+			<tr><th>City: </th><td><span id="city"></span></td></tr>
+			<tr><th>Point Population: </th><td><span id="pointPop"></span></td></tr>
+			<tr><th>Latitude Population: </th><td><span id="latPop"></span></td></tr>
+			<tr><th>Longitude Population: </th><td><span id="longPop"></span></td></tr>
+			<tr><th>Latitude: </th><td><span id="lat"></span></td></tr>
+			<tr><th>Longitude: </th><td><span id="long"></span></td></tr>
+			<tr><th>Information: </th><td><a href="http://blog.andersen.im/2013/05/interactive-map-of-world-population-by-point-latitude-and-longitude/">Blog post</a></span></td></tr>
+		</table>
+		
+		
+		
+		<script type="text/javascript" src="world.js"></script>
+
+	</body>
+</html>
